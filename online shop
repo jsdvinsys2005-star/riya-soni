@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Shop</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+header{
+    background:#007bff;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#0056b3;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.products{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    padding:30px;
+}
+
+.card{
+    background:white;
+    width:250px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+    text-align:center;
+    padding:15px;
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.price{
+    color:green;
+    font-size:22px;
+    margin:10px 0;
+}
+
+button{
+    background:#007bff;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Krishna Mobile Shop</h1>
+    <p>Best Deals on Mobiles & Accessories</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Cart</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="products">
+
+<div class="card">
+    <img src="https://via.placeholder.com/250x180" alt="Mobile">
+    <h3>Samsung Galaxy</h3>
+    <p class="price">₹24,999</p>
+    <button>Add to Cart</button>
+</div>
+
+<div class="card">
+    <img src="https://via.placeholder.com/250x180" alt="Mobile">
+    <h3>iPhone</h3>
+    <p class="price">₹69,999</p>
+    <button>Add to Cart</button>
+</div>
+
+<div class="card">
+    <img src="https://via.placeholder.com/250x180" alt="Mobile">
+    <h3>OnePlus</h3>
+    <p class="price">₹34,999</p>
+    <button>Add to Cart</button>
+</div>
+
+</section>
+
+<footer>
+    © 2026 Krishna Mobile Shop | All Rights Reserved
+</footer>
+
+</body>
+</html>

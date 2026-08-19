@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Online Shop</title>
+<style>
+body{font-family:Arial;margin:0;background:#f2f2f2}
+header{background:#222;color:white;padding:20px;text-align:center}
+nav{background:#444;padding:10px;text-align:center}
+nav a{color:white;margin:15px;text-decoration:none}
+.container{padding:30px;text-align:center}
+.products{display:flex;justify-content:center;gap:20px;flex-wrap:wrap}
+.card{background:white;width:200px;padding:20px;border-radius:10px}
+.card img{width:150px;height:120px;object-fit:cover}
+button{background:green;color:white;border:0;padding:10px;border-radius:5px}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🛒 My Online Shop</h1>
+<p>Welcome to our online store</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Products</a>
+<a href="#">Login</a>
+<a href="#">Cart 🛒</a>
+</nav>
+
+<div class="container">
+<h2>Our Products</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="https://via.placeholder.com/150">
+<h3>Mobile Phone</h3>
+<p>₹15,000</p>
+<button onclick="buy('Mobile Phone')">Buy Now</button>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/150">
+<h3>Headphones</h3>
+<p>₹1,500</p>
+<button onclick="buy('Headphones')">Buy Now</button>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/150">
+<h3>Smart Watch</h3>
+<p>₹2,500</p>
+<button onclick="buy('Smart Watch')">Buy Now</button>
+</div>
+
+</div>
+</div>
+
+<script>
+function buy(product){
+alert(product+" added to cart!");
+}
+</script>
+
+</body>
+</html>
